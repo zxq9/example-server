@@ -1,0 +1,5 @@
+#! /bin/bash
+# A convenience utility to freshly build and launch the current project.
+
+./zmake
+erl -pa ebin -s es

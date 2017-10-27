@@ -1,0 +1,11 @@
+{application,es,
+             [{description,"A project"},
+              {vsn,"0.1.0"},
+              {applications,[stdlib,kernel,sasl]},
+              {modules,[es,
+                        es_sup,
+                          es_clients,
+                            es_client_sup,
+                              es_client,
+                            es_client_man]},
+              {mod,{es,[]}}]}.
