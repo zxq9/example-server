@@ -10,6 +10,7 @@
 %%% @end
 
 -module(es_client_man).
+-vsn("1.1.0").
 -behavior(gen_server).
 -author("Craig Everett <zxq9@zxq9.com>").
 -copyright("Craig Everett <zxq9@zxq9.com>").

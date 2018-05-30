@@ -8,6 +8,7 @@
 %%% @end
 
 -module(es).
+-vsn("1.1.0").
 -behavior(application).
 -author("Craig Everett <zxq9@zxq9.com>").
 -copyright("Craig Everett <zxq9@zxq9.com>").
@@ -45,7 +46,7 @@ ignore() ->
 
 start() ->
     ok = application:ensure_started(sasl),
-    ok = application:start(?MODULE),
+    ok = application:start(example_server),
     io:format("Starting es...").
 
 

@@ -9,6 +9,7 @@
 %%% @end
 
 -module(es_clients).
+-vsn("1.1.0").
 -behavior(supervisor).
 -author("Craig Everett <zxq9@zxq9.com>").
 -copyright("Craig Everett <zxq9@zxq9.com>").

@@ -12,6 +12,7 @@
 %%% @end
 
 -module(es_sup).
+-vsn("1.1.0").
 -behaviour(supervisor).
 -author("Craig Everett <zxq9@zxq9.com>").
 -copyright("Craig Everett <zxq9@zxq9.com>").
