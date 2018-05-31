@@ -1,5 +1,5 @@
 {appmod,{es,[]}}.
 {deps,[]}.
 {package_id,{"otpr","example_server",{1,1,0}}}.
-{prefix,"es_"}.
+{prefix,"es"}.
 {type,app}.
