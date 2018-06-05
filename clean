@@ -1,9 +1,0 @@
-#! /bin/bash
-# A convenience utility to remove all beams in this project tree.
-
-rm -f ebin/*.beam
-rm -f doc/*.{png,css,html}
-rm -f doc/edoc-info
-rm -f erl_crash.dump
-
-echo "Sweep, sweep... erase, erase... Done!"
